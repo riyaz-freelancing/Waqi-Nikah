@@ -8,7 +8,7 @@ export default function AudioPlayer({ autoStart = false }) {
   const playerRef = useRef(null);
   const fallbackAudioRef = useRef(null);
 
-  const youtubeId = weddingData.music.youtubeId || 'BTjIofbzaq0';
+  const youtubeId = weddingData.music.youtubeId || 'o8M-qOdDckA';
 
   // Load YouTube Iframe API
   useEffect(() => {
