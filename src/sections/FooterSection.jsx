@@ -88,8 +88,7 @@ export default function FooterSection() {
           </button>
         </div>
 
-        {/* Monogram Seal in Footer - Commented out */}
-        {/* 
+        {/* Monogram Seal in Footer - Enlarged & Grand */}
         <div className="mt-8 mb-5">
           <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full border-2 border-[#C9A24B] bg-[#FFFDF9] flex items-center justify-center mx-auto shadow-md">
             <span className="font-script text-3xl sm:text-4xl text-[#8B1233] font-bold">
@@ -97,7 +96,6 @@ export default function FooterSection() {
             </span>
           </div>
         </div>
-        */}
 
         {/* Quranic Duas / Blessings - Clear & Legible */}
         <p className="font-serif text-sm sm:text-lg text-[#2C241E] italic max-w-2xl mx-auto leading-relaxed font-medium">
