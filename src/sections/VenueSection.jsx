@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { MapPin, Navigation, Car, Compass, ExternalLink } from 'lucide-react';
+import { MapPin, Navigation, Compass, ExternalLink } from 'lucide-react';
 import TiltCard from '../components/TiltCard';
 import OrnateDivider from '../components/OrnateDivider';
 import FloralCorner from '../components/FloralCorner';
@@ -91,20 +91,6 @@ export default function VenueSection() {
                 </p>
 
                 <div className="space-y-4 pt-4 border-t border-[#C9A24B]/30">
-                  <div className="flex items-start gap-3.5 text-sm sm:text-base font-sans text-[#2C241E]">
-                    <Car className="w-5 h-5 text-[#8B1233] shrink-0 mt-0.5" />
-                    <div>
-                      <p className="font-bold font-serif text-[#8B1233] text-base sm:text-lg">
-                        Arrival &amp; Parking
-                      </p>
-                      <p className="text-[#2C241E]/85 text-xs sm:text-sm mt-0.5 font-medium leading-relaxed">
-                        {activeVenue.id === 'valima'
-                          ? 'Valet parking assistance available at the main gate. Located right by Pillar No. 89 on Attapur Ring Road.'
-                          : 'Street and community parking available near Murad Nagar Choti Masjid.'}
-                      </p>
-                    </div>
-                  </div>
-
                   <div className="flex items-start gap-3.5 text-sm sm:text-base font-sans text-[#2C241E]">
                     <Compass className="w-5 h-5 text-[#1B3FA0] shrink-0 mt-0.5" />
                     <div>

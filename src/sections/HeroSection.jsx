@@ -131,38 +131,39 @@ export default function HeroSection() {
         </p> */}
       </div>
 
-      {/* Main Names & Ceremony Badging - Fully Clear, Large, Bold, Legible */}
+      {/* Main Names & Ceremony Badging (Commented Out) */}
+      {/*
       <motion.div
         initial={{ opacity: 0, y: 25 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0.5 }}
         className="relative z-20 flex flex-col items-center text-center max-w-4xl px-3"
       >
-        {/* Valima Ceremony Burgundy Pill Badge (Like Card) */}
+        // Valima Ceremony Burgundy Pill Badge (Like Card)
         <div className="inline-flex items-center gap-2 px-7 py-2 rounded-full bg-gradient-to-r from-[#8B1233] via-[#A81D43] to-[#8B1233] text-[#FFFDF7] border-2 border-[#E8CF8A] shadow-md mb-3">
           <span className="text-xs sm:text-sm md:text-base font-serif uppercase tracking-[0.25em] font-bold">
             {weddingData.invitationHeading}
           </span>
         </div>
 
-        {/* Groom Giant Name - Solid Bold Burgundy */}
+        // Groom Giant Name - Solid Bold Burgundy
         <h1 className="font-script text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-[#8B1233] font-bold tracking-wide leading-tight drop-shadow-sm my-1">
           {weddingData.couple.groom.name}
         </h1>
 
-        {/* With Divider */}
+        // With Divider
         <div className="font-serif italic text-2xl sm:text-3xl text-[#1B3FA0] my-2 font-bold flex items-center gap-4">
           <span className="h-[1.5px] w-12 bg-[#C9A24B]" />
           With
           <span className="h-[1.5px] w-12 bg-[#C9A24B]" />
         </div>
 
-        {/* Bride Giant Name - Solid Bold Burgundy */}
+        // Bride Giant Name - Solid Bold Burgundy
         <h2 className="font-script text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-[#8B1233] font-bold tracking-wide leading-tight drop-shadow-sm my-1">
           {weddingData.couple.bride.name}
         </h2>
 
-        {/* Date Line - Large, Crisp, Royal Blue */}
+        // Date Line - Large, Crisp, Royal Blue
         <div className="mt-5 flex flex-col items-center space-y-1">
           <p className="font-serif text-2xl sm:text-3xl md:text-4xl text-[#1B3FA0] font-bold tracking-wider">
             Sunday, 25th October 2026
@@ -172,6 +173,7 @@ export default function HeroSection() {
           </p>
         </div>
       </motion.div>
+      */}
 
       {/* Scroll Down Indicator */}
       <motion.a
